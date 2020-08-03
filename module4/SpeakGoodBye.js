@@ -24,10 +24,10 @@
 
 (function(window){
 	var speakWord = "Good Bye";
-    var SpeakGoodBye = function (name) {
+    var byeSpeaker = function (name) {
     	console.log(speakWord + " " + name);
     }
-    window.SpeakGoodBye=SpeakGoodBye;
+    window.byeSpeaker=byeSpeaker;
 
 
 })(window);
